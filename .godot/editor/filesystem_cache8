@@ -1,0 +1,7 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1727296787
+laberinto_game.tscn::PackedScene::9109266876659423379::1727296747::0::1::::<><>::uid://b0vbmq0em7iq4::::res://player.tscn
+player.gd::GDScript::-1::1727294429::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::4184576733191549149::1727296747::0::1::::<><>::res://player.gd<>uid://dg3hseoo2x45g::::res://character/dinosaurio.png
+::res://character/::1727294217
+dinosaurio.png::CompressedTexture2D::7638655085654602526::1727289556::1727294217::1::::<><>::
