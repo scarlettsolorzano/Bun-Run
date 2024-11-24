@@ -75,8 +75,8 @@ Settings/Show_Tooltips=true
 [application]
 
 config/name="Movimiento del dinosaurio"
-run/main_scene="res://laberinto_game.tscn"
-config/features=PackedStringArray("4.3", "C#", "Forward Plus")
+run/main_scene="res://scenes/laberinto_game.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
 
 [display]
 

@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://b0vbmq0em7iq4"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_01l35"]
+[ext_resource type="Texture2D" uid="uid://dmdrncobjwcjh" path="res://character/Players/bunny1_stand.png" id="2_2h1cl"]
+[ext_resource type="Texture2D" uid="uid://c4bs7wi13qo5y" path="res://character/Players/bunny1_walk1.png" id="3_77rux"]
+[ext_resource type="Texture2D" uid="uid://dyil2kcq3vrex" path="res://character/Players/bunny1_walk2.png" id="4_omsji"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fxh7m"]
+size = Vector2(171.375, 92.5625)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7f2u3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_2h1cl")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_77rux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_omsji")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_01l35")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-6.6875, 83)
+shape = SubResource("RectangleShape2D_fxh7m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-5.99998, -1)
+scale = Vector2(1.39167, 1.28046)
+sprite_frames = SubResource("SpriteFrames_7f2u3")
+animation = &"run"
+frame_progress = 0.110616

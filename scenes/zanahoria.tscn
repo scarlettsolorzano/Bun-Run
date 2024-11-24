@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dum4ya2y8a7ks"]
+
+[ext_resource type="Script" path="res://scripts/zanahoria.gd" id="1_nbw2t"]
+[ext_resource type="Texture2D" uid="uid://ddouoyjy5e1e3" path="res://art/victoria/zanahoria.png" id="1_st52i"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p2j7o"]
+height = 68.0
+
+[node name="zanahoria" type="Area2D"]
+script = ExtResource("1_nbw2t")
+
+[node name="Zanahoria" type="Sprite2D" parent="."]
+position = Vector2(-3.8147e-06, -1)
+scale = Vector2(0.150802, 0.226954)
+texture = ExtResource("1_st52i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_p2j7o")
