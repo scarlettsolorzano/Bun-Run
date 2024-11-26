@@ -1,12 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://cdx65tufmt4ag"]
+[gd_scene load_steps=3 format=3 uid="uid://cdx65tufmt4ag"]
 
 [ext_resource type="Script" path="res://scripts/victory_window.gd" id="1_1ueij"]
+[ext_resource type="FontFile" uid="uid://5dlpic620xau" path="res://art/fonts/Jersey10-Regular.ttf" id="2_7vwkg"]
 
 [node name="Victoria" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -21.0
+offset_top = -3.0
+offset_right = -21.0
+offset_bottom = -3.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_1ueij")
@@ -18,13 +23,13 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -530.0
-offset_top = -353.0
-offset_right = 530.0
-offset_bottom = 353.0
+offset_left = -1000.0
+offset_top = -592.0
+offset_right = 1048.0
+offset_bottom = 592.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0, 0.666667, 0.584314, 1)
+color = Color(0, 0, 0, 0.686275)
 
 [node name="Victoria" type="Label" parent="."]
 layout_mode = 1
@@ -33,56 +38,34 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -351.0
-offset_top = -328.0
-offset_right = 327.0
-offset_bottom = -123.0
+offset_left = -437.0
+offset_top = -407.0
+offset_right = 415.0
+offset_bottom = -84.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 150
+theme_override_fonts/font = ExtResource("2_7vwkg")
+theme_override_font_sizes/font_size = 300
 text = "VICTORIA"
 
-[node name="TimeLabel" type="Label" parent="."]
+[node name="label" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -341.0
-offset_top = -142.0
-offset_right = 337.0
-offset_bottom = -43.0
+offset_left = -303.0
+offset_top = -44.0
+offset_right = 297.0
+offset_bottom = 171.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 72
-text = "Tiempo"
+theme_override_fonts/font = ExtResource("2_7vwkg")
+theme_override_font_sizes/font_size = 150
 horizontal_alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -314.0
-offset_top = 62.0
-offset_right = 292.0
-offset_bottom = 248.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 32
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
 
-[node name="reiniciar" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 50
-text = "REINICIAR"
-
-[node name="quit" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 50
-text = "SALIR"
-
-[connection signal="pressed" from="VBoxContainer/reiniciar" to="." method="_on_reiniciar_pressed"]
-[connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_quit_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
