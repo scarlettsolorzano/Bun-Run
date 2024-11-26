@@ -23,3 +23,29 @@ C:\Users\david\Downloads\Movimiento del Dinosaurio\.godot\mono\temp\obj\Debug\re
 C:\Users\david\Downloads\Movimiento del Dinosaurio\.godot\mono\temp\obj\Debug\Getting started with Godot 4.pdb
 C:\Users\david\Downloads\Movimiento del Dinosaurio\.godot\mono\temp\obj\Debug\Getting started with Godot 4.genruntimeconfig.cache
 C:\Users\david\Downloads\Movimiento del Dinosaurio\.godot\mono\temp\obj\Debug\ref\Getting started with Godot 4.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\Getting started with Godot 4.deps.json
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\Getting started with Godot 4.runtimeconfig.json
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\Getting started with Godot 4.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\Getting started with Godot 4.pdb
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.csproj.AssemblyReference.cache
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.AssemblyInfo.cs
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.sourcelink.json
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting .B851D4ED.Up2Date
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\refint\Getting started with Godot 4.dll
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.pdb
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\Getting started with Godot 4.genruntimeconfig.cache
+C:\Users\david\Documents\Bun-Run\.godot\mono\temp\obj\Debug\ref\Getting started with Godot 4.dll

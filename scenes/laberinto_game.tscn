@@ -1,10 +1,11 @@
-[gd_scene load_steps=15 format=4 uid="uid://d21ukasdh438j"]
+[gd_scene load_steps=16 format=4 uid="uid://d21ukasdh438j"]
 
 [ext_resource type="Script" path="res://scripts/laberinto_game.gd" id="1_8ttwn"]
 [ext_resource type="Texture2D" uid="uid://cn3nfbw1e4una" path="res://art/Tilemap/tilemap_packed.png" id="1_jh1g3"]
 [ext_resource type="PackedScene" uid="uid://cdx65tufmt4ag" path="res://scenes/victoria.tscn" id="2_a1g5x"]
 [ext_resource type="PackedScene" uid="uid://b0vbmq0em7iq4" path="res://scenes/player.tscn" id="3_x0cio"]
 [ext_resource type="PackedScene" uid="uid://dum4ya2y8a7ks" path="res://scenes/zanahoria.tscn" id="4_vh1to"]
+[ext_resource type="Script" path="res://scenes/ArduinoController.cs" id="6_lm0e6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a6hmy"]
 texture = ExtResource("1_jh1g3")
@@ -383,6 +384,9 @@ offset_top = 5.0
 offset_right = 0.0
 offset_bottom = 5.0
 metadata/_edit_use_anchors_ = true
+
+[node name="ArduinoController" type="Node2D" parent="."]
+script = ExtResource("6_lm0e6")
 
 [connection signal="iniciarTimer" from="." to="CanvasLayer/Victoria" method="_on_game_iniciar_timer"]
 [connection signal="body_entered" from="zanahoria" to="." method="_on_zanahoria_body_entered"]

@@ -2,10 +2,6 @@ res://scenes/laberinto_game.tscn
 res://scenes/victoria.tscn
 res://scenes/player.tscn
 res://scenes/menu.tscn
-res://scenes/zanahoria.tscn
 res://scenes/tutorial.tscn
-res://scripts/zanahoria.gd
-res://scenes/laberinto_game.gd
-res://scripts/victory_window.gd
-res://scripts/laberinto_game.gd
-res://scripts/player.gd
+res://scenes/ArduinoController.cs
+res://ArduinoController.cs
