@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://b0vbmq0em7iq4"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_01l35"]
-[ext_resource type="Texture2D" uid="uid://dmdrncobjwcjh" path="res://character/Players/bunny1_stand.png" id="2_2h1cl"]
-[ext_resource type="Texture2D" uid="uid://c4bs7wi13qo5y" path="res://character/Players/bunny1_walk1.png" id="3_77rux"]
-[ext_resource type="Texture2D" uid="uid://dyil2kcq3vrex" path="res://character/Players/bunny1_walk2.png" id="4_omsji"]
+[ext_resource type="Texture2D" uid="uid://yf2aj015j7d6" path="res://character/Players/bunny1_stand.png" id="2_2h1cl"]
+[ext_resource type="Texture2D" uid="uid://ngaheqortve6" path="res://character/Players/bunny1_walk1.png" id="3_77rux"]
+[ext_resource type="Texture2D" uid="uid://oq0x13ph78ih" path="res://character/Players/bunny1_walk2.png" id="4_omsji"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fxh7m"]
 size = Vector2(171.375, 92.5625)
