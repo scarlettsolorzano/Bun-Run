@@ -1,7 +1,10 @@
+res://scenes/player.tscn
 res://scenes/laberinto_game.tscn
 res://scenes/victoria.tscn
-res://scenes/player.tscn
 res://scenes/menu.tscn
 res://scenes/tutorial.tscn
+<<<<<<< HEAD
 res://scenes/ArduinoController.cs
 res://ArduinoController.cs
+=======
+>>>>>>> origin
